@@ -12,12 +12,14 @@
             Testing
         </header>
 
-        <nav id="sideNav">
+        <nav id="sideNavContainer">
 
         </nav>
 
         <main id="mainSectionContainer">
-            
+            <div id="mainContentContainer">
+                Hello everyone
+            </div>
         </main>
 
     </div>
