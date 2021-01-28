@@ -41,6 +41,10 @@ body {
     padding-top: 56px;
 }
 
+#mainSectionContainer.padLeft{
+    padding-left: 245px;
+}
+
 #mainContentContainer{
     padding: 10px 30px;
 }
