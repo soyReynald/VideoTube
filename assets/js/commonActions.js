@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    var main = $("#mainSectionContainer");
-    var nav = $("#sideNavContainer");
+    var main = $(".main-container-content");
+    var nav = $(".main-container-nav");
     $(".NavShowHide").on('click', function(){
-        if(main.hasClass("padLeft")){
+        if(main.hasClass("--padLeft")){
             nav.hide();
         }else{
             nav.show();
         }
-        main.toggleClass("padLeft");
+        main.toggleClass("--padLeft");
     });
 });

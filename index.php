@@ -11,17 +11,17 @@
     <title>VideoTube</title>
 </head>
 <body>
-    <div id="container">
-        <header id="mastHeadContainer">
-           <button class="NavShowHide">Click me!</button>
+    <div class="main-container">
+        <header id="mastHeadContainer" class="main-container-header">
+           <button class="NavShowHide" class="btn main-container-header__btn">Click me!</button>
         </header>
 
-        <nav id="sideNavContainer" style="display: none;">
+        <nav id="sideNavContainer" style="display: none;" class="main-container-nav">
 
         </nav>
 
-        <main id="mainSectionContainer">
-            <div id="mainContentContainer">
+        <main id="mainSectionContainer" class="main-container-content">
+            <div id="mainContentContainer" class="main-container-content__container">
                 Hello everyone
             </div>
         </main>
