@@ -32,7 +32,27 @@ body {
 }
 
 .main-container-header__btn {
-  content: "";
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.main-container-header__btn img {
+  width: 100%;
+}
+
+.main-container-header__btn-logo {
+  width: 150px;
+}
+
+.main-container-header__btn-logo img {
+  height: 1.75rem;
+  margin-left: 8px;
 }
 
 .main-container-nav {

@@ -13,11 +13,16 @@
 <body>
     <div class="main-container">
         <header id="mastHeadContainer" class="main-container-header">
-           <button class="NavShowHide" class="btn main-container-header__btn">Click me!</button>
+           <button class="navShowHide btn main-container-header__btn main-container-header__btn-menu">
+                <img src="assets/img/icons/menu.png" alt="">
+            </button>
+           <a class="logoContainer btn main-container-header__btn main-container-header__btn-logo" href="index.php">
+                <img src="assets/img/icons/VideoTubeLogo.png" alt="Site Logo" title="VideoTube">
+            </a>
         </header>
 
         <nav id="sideNavContainer" style="display: none;" class="main-container-nav">
-
+            
         </nav>
 
         <main id="mainSectionContainer" class="main-container-content">
