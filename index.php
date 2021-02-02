@@ -19,6 +19,14 @@
            <a class="logoContainer btn main-container-header__btn main-container-header__btn-logo" href="index.php">
                 <img src="assets/img/icons/VideoTubeLogo.png" alt="Site Logo" title="VideoTube">
             </a>
+            <div id="searchBarContainer">
+                <form action="search.php" method="GET">
+                    <input type="text" name="term" class="main-container__search-bar" placeholder="Search...">
+                    <button class="main-container-header__btn-search">
+                        <img src="assets/img/icons/search.png" alt="">
+                    </button>
+                </form>
+            </div>
         </header>
 
         <nav id="sideNavContainer" style="display: none;" class="main-container-nav">
