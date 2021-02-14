@@ -1,3 +1,13 @@
+@mixin icons{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
 html,
 body {
     height: 100%;
@@ -25,13 +35,7 @@ body {
         align-items: center;
 
         &__btn{
-            width: 40px;
-            height: 40px;
-            padding: 8px;
-            box-sizing: border-box;
-            border: none;
-            background: transparent;
-            cursor: pointer;
+            @include icons;
             img{
                 width: 100%;
             }            
@@ -79,6 +83,19 @@ body {
                 width: 20px;
             }
         }
+
+        &__user-options{
+            height: 100%;
+            a{
+                text-decoration: none;
+                color: #fff;
+                img{
+                    @include icons;
+                }
+            }
+            
+        }
+
     }
 
     &-nav{
