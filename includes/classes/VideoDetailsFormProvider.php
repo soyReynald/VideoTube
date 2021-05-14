@@ -45,7 +45,7 @@ class VideoDetailsFormProvider {
 
     private function createPrivacyInput(){
         return "<div class='form-group my-3'>
-        <select class='form-select form-select' aria-label='.form-select example'>
+        <select name='privacyInput' class='form-select form-select' aria-label='.form-select example'>
             <option disabled selected>Open this select menu</option>
             <option value='0'>Private</option>
             <option value='1'>Public</option>
@@ -58,7 +58,7 @@ class VideoDetailsFormProvider {
         $query->execute();
 
         $html = "<div class='form-group my-3'>
-        <select class='form-select form-select' aria-label='.form-select example'>";
+        <select name='categoryInput' class='form-select form-select' aria-label='.form-select example'>";
             while($row = $query->fetch(PDO::FETCH_ASSOC)){
                 $name = $row['name'];
                 $id = $row['id'];
